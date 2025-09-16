@@ -1,17 +1,20 @@
 body {
     font-family: 'Karla', sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+    max-width: 750px;
 }
 
 nav {
     background-color: beige;
+    box-sizing: border-box;
     padding: 5px;
-    height: 30px;
+    height: 40px;
     display: flex;
     align-items: center;
     position: fixed;
     width: 100%;
+    max-width: 750px;
 }
 
 nav > h3 {
@@ -20,10 +23,11 @@ nav > h3 {
 
 #blog-list {
     padding: 10px;
+    box-shadow: 1px 2px 5px grey;
 }
 
 form {
-    padding: 60px 10px 10px;
+    padding: 60px 15px 10px;
     display: grid;
     background-color: lightblue;
 }
